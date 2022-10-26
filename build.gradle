@@ -17,6 +17,7 @@ buildscript {
 }
 
 apply plugin: 'forge'
+compileJava.options.encoding = "UTF-8"
 
 version = "1.0.0"
 group = "committee.nova.examplemod" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
